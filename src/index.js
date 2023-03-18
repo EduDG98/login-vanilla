@@ -1,6 +1,7 @@
 import { firebaseConfig } from "./firabase.js";
 import { initializeApp } from "https://www.gstatic.com/firebasejs/9.18.0/firebase-app.js";
 import { getAuth, signInWithEmailAndPassword } from "https://www.gstatic.com/firebasejs/9.18.0/firebase-auth.js";
+import { handleUrlChange } from "./handleUrlChange.js";
 
 const submitButton = document.querySelector("button");
 const errorDiv = document.createElement("div");
