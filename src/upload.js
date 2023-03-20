@@ -1,4 +1,4 @@
-// import { handleUrlChange } from "./handleUrlChange";
+import { handleUrlChange } from "./handleUrlChange";
 
 const button = document.querySelector("button");
 
@@ -8,3 +8,4 @@ const handleLogout = () => {
 
 button.addEventListener("click", handleLogout);
 // window.addEventListener("popstate", handleUrlChange);
+button.addEventListener("click", handleUrlChange);

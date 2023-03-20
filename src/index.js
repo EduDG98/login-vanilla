@@ -19,6 +19,7 @@ const handleLogin = (event) => {
     .then((userCredential) => {
       const user = userCredential.user;
       window.location.replace("./upload.html");
+      console.log("dentro");
     })
     .catch((error) => {
       const errorCode = error.code;
@@ -31,3 +32,4 @@ const handleLogin = (event) => {
 };
 
 submitButton.addEventListener("click", handleLogin);
+submitButton.addEventListener("click", handleUrlChange);
