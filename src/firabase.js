@@ -4,5 +4,5 @@ export const firebaseConfig = {
   projectId: "formlogin-b466b",
   storageBucket: "formlogin-b466b.appspot.com",
   messagingSenderId: "718794557398",
-  appId: "1:718794557398:web:0e87ec4371753f01804677"
+  appId: "1:718794557398:web:0e87ec4371753f01804677",
 };

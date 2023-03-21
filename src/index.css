@@ -2,19 +2,20 @@
   font-family: Sono;
   font-style: normal;
   font-weight: 400;
-  src: url("https://fonts.gstatic.com/s/sono/v1/aFT97PNiY3U2Cqf_aYEN64CYaK18YWJEsV6u-QLiOsxVtkWtFX55.woff2") format('woff2');
+  src: url("https://fonts.gstatic.com/s/sono/v1/aFT97PNiY3U2Cqf_aYEN64CYaK18YWJEsV6u-QLiOsxVtkWtFX55.woff2")
+    format("woff2");
 }
 
- *{
-   font-family: Sono;
- }
+* {
+  font-family: Sono;
+}
 
 :root {
-  --body-color: #F9F5EB;
-  --main-color:# f5f5f5;
+  --body-color: #f9f5eb;
+  --main-color: #f5f5f5;
   --font-color: #5f5f5f;
   --font-hover-color: black;
-  --border-color: black
+  --border-color: black;
 }
 
 body {
@@ -49,7 +50,7 @@ label {
 
 input {
   padding: 10px 8px;
-  background-color: var(--main-color) ;
+  background-color: var(--main-color);
   border: none;
   border-bottom: 2px solid black;
   border-top-right-radius: 2px;
@@ -65,9 +66,13 @@ input {
 }
 
 @keyframes show-message {
-  0%, 100% {transform: scale(1);}
-  50% {transform: scale(1.1);}
-  
+  0%,
+  100% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.1);
+  }
 }
 
 button {
@@ -79,12 +84,12 @@ button {
   border-radius: 4px;
 }
 
-label:hover{
+label:hover {
   transform: scale(1.05);
   color: var(black);
   transition: all 1s;
 }
 
-button:active{
+button:active {
   transform: scale(1.05);
 }
