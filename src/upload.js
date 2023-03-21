@@ -8,4 +8,4 @@ const handleLogout = () => {
 
 button.addEventListener("click", handleLogout);
 // window.addEventListener("popstate", handleUrlChange);
-button.addEventListener("click", handleUrlChange);
+// button.addEventListener("click", handleUrlChange);
